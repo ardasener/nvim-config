@@ -1,3 +1,6 @@
+require("plugins")
+
+
 -- Utilty Functions
 
 function map(mode, shortcut, command)
@@ -43,3 +46,4 @@ tmap("<C-Down>", "<C-W>j")
 tmap("<C-Up>", "<C-W>k")
 tmap("<C-Right>", "<C-W>l")
 tmap("<C-Left>", "<C-W>h")
+

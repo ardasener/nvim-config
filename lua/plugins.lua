@@ -32,6 +32,15 @@ return require('packer').startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Colorscheme
+  use 'srcery-colors/srcery-vim'
+
+  -- Statusline
+  use 'vim-airline/vim-airline'
+
+  -- 2 character searches with the s key (use ; and , to move)
+  use 'justinmk/vim-sneak'
+
   -- Automatically set up your configuration after cloning packer.nvim
   if packer_bootstrap then
     require('packer').sync()
